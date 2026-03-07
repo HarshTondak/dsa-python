@@ -33,3 +33,5 @@ def getDivisors3(num):          # lets say num=36
                 result.append(num//i)           # 36, 18, 12, 9
     return result
 print(getDivisors3(36))
+# Time complexity: O(srqt(n)), since we are iterating all numbers from 1 to num+1.
+# Space complexity: O(k) since we are using a constant amount of space to store the divisors.
